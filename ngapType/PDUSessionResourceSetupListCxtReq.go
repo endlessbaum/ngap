@@ -5,5 +5,5 @@ package ngapType
 /* Sequence of = 35, FULL Name = struct PDUSessionResourceSetupListCxtReq */
 /* PDUSessionResourceSetupItemCxtReq */
 type PDUSessionResourceSetupListCxtReq struct {
-	List []PDUSessionResourceSetupItemCxtReq `aper:"valueExt,sizeLB:1,sizeUB:256"`
+	List []PDUSessionResourceSetupItemCxtReq `aper:"valueExt,sizeLB:1,sizeUB:255"`
 }
